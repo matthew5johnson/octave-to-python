@@ -106,6 +106,3 @@ ploty = lin_regr.intercept_ + np.sum(lin_regr.coef_ * poly.fit_transform(xaxis.r
 plt.plot (xaxis, ploty)
 plt.scatter(X_train, y_train)
 plt.show()
-
-
-# web driver: https://www.youtube.com/watch?v=bhYulVzYRng
